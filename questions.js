@@ -1,505 +1,70 @@
 const questions = {
             "level 1": [
-                {
-                    "Question": "shu, o’sha",
-                    "RightAnswer": "во всо ",
-                    "options": ["wherever","nowhere","anymore"]
-                },
-                {
-                    "Question": "bo'lmoq",
-                    "RightAnswer": "втициышвш",
-                    "options": ["what","which","mine"]
-                },
-                {
-                    "Question": "va",
-                    "RightAnswer": "воисшви",
-                    "options": ["a","the","wherever"]
-                },
-                {
-                    "Question": "ning",
-                    "RightAnswer": "воимшв",
-                    "options": ["one","second","master"]
-                },
-                {
-                    "Question": "ga",
-                    "RightAnswer": "to",
-                    "options": ["till","except","until"]
-                },
-                {
-                    "Question": "bir",
-                    "RightAnswer": "a",
-                    "options": ["the","wherever","nowhere"]
-                },
-                {
-                    "Question": "da, ichida",
-                    "RightAnswer": "in",
-                    "options": ["of","one","second"]
-                },
-                {
-                    "Question": "ega bo'lmoq",
-                    "RightAnswer": "have",
-                    "options": ["be","what","which"]
-                },
-                {
-                    "Question": "u (narsa yoki hayvon)",
-                    "RightAnswer": "it",
-                    "options": ["plus","versus","to"]
-                },
-                {
-                    "Question": "sen, siz ",
-                    "RightAnswer": "you",
-                    "options": ["it","plus","versus"]
-                },
-                {
-                    "Question": "u (o'gil bola)",
-                    "RightAnswer": "he",
-                    "options": ["you","it","plus"]
-                },
-                {
-                    "Question": "uchun",
-                    "RightAnswer": "for",
-                    "options": ["in","of","one"]
-                },
-                {
-                    "Question": "ular",
-                    "RightAnswer": "they",
-                    "options": ["he","you","it"]
-                },
-                {
-                    "Question": "emas",
-                    "RightAnswer": "not",
-                    "options": ["cool","tender","pale"]
-                },
-                {
-                    "Question": "o'sha, shu",
-                    "RightAnswer": "that",
-                    "options": ["than","while","whilst"]
-                },
-                {
-                    "Question": "biz",
-                    "RightAnswer": "we",
-                    "options": ["they","he","you"]
-                },
-                {
-                    "Question": "da, ustida",
-                    "RightAnswer": "on",
-                    "options": ["for","in","of"]
-                },
-                {
-                    "Question": "bilan",
-                    "RightAnswer": "with",
-                    "options": ["on","for","in"]
-                },
-                {
-                    "Question": "bu",
-                    "RightAnswer": "this",
-                    "options": ["either","least","enough"]
-                },
-                {
-                    "Question": "men",
-                    "RightAnswer": "I",
-                    "options": ["we","they","he"]
-                },
-                {
-                    "Question": "qilmoq",
-                    "RightAnswer": "do",
-                    "options": ["have","be","what"]
-                },
-                {
-                    "Question": "kabi",
-                    "RightAnswer": "as",
-                    "options": ["hence","otherwise","yet"]
-                },
-                {
-                    "Question": "da, atrofida",
-                    "RightAnswer": "at",
-                    "options": ["with","on","for"]
-                },
-                {
-                    "Question": "u (qiz bola)",
-                    "RightAnswer": "she",
-                    "options": ["I","we","they"]
-                },
-                {
-                    "Question": "lekin",
-                    "RightAnswer": "but",
-                    "options": ["and","a","the"]
-                },
-                {
-                    "Question": "dan",
-                    "RightAnswer": "from",
-                    "options": ["at","with","on"]
-                },
-                {
-                    "Question": "tomonidan",
-                    "RightAnswer": "by",
-                    "options": ["from","at","with"]
-                },
-                {
-                    "Question": "bo'ladi",
-                    "RightAnswer": "will",
-                    "options": ["hello","hi","each"]
-                },
-                {
-                    "Question": "yoki",
-                    "RightAnswer": "or",
-                    "options": ["but","and","a"]
-                },
-                {
-                    "Question": "aytmoq",
-                    "RightAnswer": "say",
-                    "options": ["do","have","be"]
-                },
-                {
-                    "Question": "bormoq",
-                    "RightAnswer": "go",
-                    "options": ["say","do","have"]
-                },
-                {
-                    "Question": "shuning uchun",
-                    "RightAnswer": "so",
-                    "options": ["badly","abroad","apart"]
-                },
-                {
-                    "Question": "barcha",
-                    "RightAnswer": "all",
-                    "options": ["this","either","least"]
-                },
-                {
-                    "Question": "agar",
-                    "RightAnswer": "if",
-                    "options": ["or","but","and"]
-                },
-                {
-                    "Question": "bir",
-                    "RightAnswer": "one",
-                    "options": ["second","master","fashion"]
-                },
-                {
-                    "Question": "bo'lardi",
-                    "RightAnswer": "would",
-                    "options": ["will","hello","hi"]
-                },
-                {
-                    "Question": "haqida",
-                    "RightAnswer": "about",
-                    "options": ["by","from","at"]
-                },
-                {
-                    "Question": "qila olmoq, mumkin",
-                    "RightAnswer": "can",
-                    "options": ["ought","must","might"]
-                },
-                {
-                    "Question": "qaysi",
-                    "RightAnswer": "which",
-                    "options": ["mine","neither","none"]
-                },
-                {
-                    "Question": "u yerda",
-                    "RightAnswer": "there",
-                    "options": ["instead","down","out"]
-                },
-                {
-                    "Question": "bilmoq",
-                    "RightAnswer": "know",
-                    "options": ["go","say","do"]
-                },
-                {
-                    "Question": "ko'proq",
-                    "RightAnswer": "more",
-                    "options": ["as","hence","otherwise"]
-                },
-                {
-                    "Question": "olmoq",
-                    "RightAnswer": "get",
-                    "options": ["know","go","say"]
-                },
-                {
-                    "Question": "kim",
-                    "RightAnswer": "who",
-                    "options": ["she","I","we"]
-                },
-                {
-                    "Question": "yoqtirmoq",
-                    "RightAnswer": "like",
-                    "options": ["swear","damn","prompt"]
-                },
-                {
-                    "Question": "qachon",
-                    "RightAnswer": "when",
-                    "options": ["so","badly","abroad"]
-                },
-                {
-                    "Question": "o'ylamoq",
-                    "RightAnswer": "think",
-                    "options": ["get","know","go"]
-                },
-                {
-                    "Question": "qilmoq, yaratmoq",
-                    "RightAnswer": "make",
-                    "options": ["think","get","know"]
-                },
-                {
-                    "Question": "vaqt",
-                    "RightAnswer": "time",
-                    "options": ["can","ought","must"]
-                },
-                {
-                    "Question": "ko'rmoq",
-                    "RightAnswer": "see",
-                    "options": ["make","think","get"]
-                },
-                {
-                    "Question": "nima",
-                    "RightAnswer": "what",
-                    "options": ["which","mine","neither"]
-                },
-                {
-                    "Question": "yuqoriga",
-                    "RightAnswer": "up",
-                    "options": ["back","nowadays","aside"]
-                },
-                {
-                    "Question": "ba'zi",
-                    "RightAnswer": "some",
-                    "options": ["all","this","either"]
-                },
-                {
-                    "Question": "boshqa",
-                    "RightAnswer": "other",
-                    "options": ["some","all","this"]
-                },
-                {
-                    "Question": "tashqarida",
-                    "RightAnswer": "out",
-                    "options": ["up","back","nowadays"]
-                },
-                {
-                    "Question": "yaxshi",
-                    "RightAnswer": "good",
-                    "options": ["bad","young","large"]
-                },
-                {
-                    "Question": "odamlar",
-                    "RightAnswer": "people",
-                    "options": ["time","can","ought"]
-                },
-                {
-                    "Question": "yil",
-                    "RightAnswer": "year",
-                    "options": ["people","time","can"]
-                },
-                {
-                    "Question": "olmoq",
-                    "RightAnswer": "take",
-                    "options": ["see","make","think"]
-                },
-                {
-                    "Question": "yo'q",
-                    "RightAnswer": "no",
-                    "options": ["several","few","every"]
-                },
-                {
-                    "Question": "yaxshi",
-                    "RightAnswer": "well",
-                    "options": ["faithfully","gently","subsequently"]
-                },
-                {
-                    "Question": "chunki",
-                    "RightAnswer": "because",
-                    "options": ["if","or","but"]
-                },
-                {
-                    "Question": "juda",
-                    "RightAnswer": "very",
-                    "options": ["not","cool","tender"]
-                },
-                {
-                    "Question": "faqat",
-                    "RightAnswer": "just",
-                    "options": ["very","not","cool"]
-                },
-                {
-                    "Question": "kelmoq",
-                    "RightAnswer": "come",
-                    "options": ["take","see","make"]
-                },
-                {
-                    "Question": "qila olardi",
-                    "RightAnswer": "could",
-                    "options": ["would","will","hello"]
-                },
-                {
-                    "Question": "ishlamoq",
-                    "RightAnswer": "work",
-                    "options": ["found","rear","lean"]
-                },
-                {
-                    "Question": "foydalanmoq",
-                    "RightAnswer": "use",
-                    "options": ["work","found","rear"]
-                },
-                {
-                    "Question": "qaraganda",
-                    "RightAnswer": "than",
-                    "options": ["while","whilst","whenever"]
-                },
-                {
-                    "Question": "hozir",
-                    "RightAnswer": "now",
-                    "options": ["just","very","not"]
-                },
-                {
-                    "Question": "keyin",
-                    "RightAnswer": "then",
-                    "options": ["now","just","very"]
-                },
-                {
-                    "Question": "yana, ham",
-                    "RightAnswer": "also",
-                    "options": ["then","now","just"]
-                },
-                {
-                    "Question": "ichiga",
-                    "RightAnswer": "into",
-                    "options": ["about","by","from"]
-                },
-                {
-                    "Question": "faqat",
-                    "RightAnswer": "only",
-                    "options": ["well","faithfully","gently"]
-                },
-                {
-                    "Question": "qaramoq",
-                    "RightAnswer": "look",
-                    "options": ["come","take","see"]
-                },
-                {
-                    "Question": "xohlamoq",
-                    "RightAnswer": "want",
-                    "options": ["look","come","take"]
-                },
-                {
-                    "Question": "bermoq",
-                    "RightAnswer": "give",
-                    "options": ["want","look","come"]
-                },
-                {
-                    "Question": "birinchi",
-                    "RightAnswer": "first",
-                    "options": ["ashamed","lazy","fortunate"]
-                },
-                {
-                    "Question": "yangi",
-                    "RightAnswer": "new",
-                    "options": ["good","bad","young"]
-                },
-                {
-                    "Question": "yo'l",
-                    "RightAnswer": "way",
-                    "options": ["year","people","time"]
-                },
-                {
-                    "Question": "topmoq",
-                    "RightAnswer": "find",
-                    "options": ["give","want","look"]
-                },
-                {
-                    "Question": "ustidan",
-                    "RightAnswer": "over",
-                    "options": ["near","unlike","via"]
-                },
-                {
-                    "Question": "har qanday",
-                    "RightAnswer": "any",
-                    "options": ["other","some","all"]
-                },
-                {
-                    "Question": "keyin",
-                    "RightAnswer": "after",
-                    "options": ["inside","alongside","regardless"]
-                },
-                {
-                    "Question": "kun",
-                    "RightAnswer": "day",
-                    "options": ["way","year","people"]
-                },
-                {
-                    "Question": "qayerda",
-                    "RightAnswer": "where",
-                    "options": ["when","so","badly"]
-                },
-                {
-                    "Question": "narsa",
-                    "RightAnswer": "thing",
-                    "options": ["day","way","year"]
-                },
-                {
-                    "Question": "eng",
-                    "RightAnswer": "most",
-                    "options": ["more","as","hence"]
-                },
-                {
-                    "Question": "kerak",
-                    "RightAnswer": "should",
-                    "options": ["could","would","will"]
-                },
-                {
-                    "Question": "kerak",
-                    "RightAnswer": "need",
-                    "options": ["use","work","found"]
-                },
-                {
-                    "Question": "ko'p miqdorda",
-                    "RightAnswer": "much",
-                    "options": ["no","several","few"]
-                },
-                {
-                    "Question": "to'g'ri",
-                    "RightAnswer": "right",
-                    "options": ["alright","okay","monthly"]
-                },
-                {
-                    "Question": "qanday",
-                    "RightAnswer": "how",
-                    "options": ["also","then","now"]
-                },
-                {
-                    "Question": "orqa",
-                    "RightAnswer": "back",
-                    "options": ["nowadays","aside","forth"]
-                },
-                {
-                    "Question": "anglatmoq",
-                    "RightAnswer": "mean",
-                    "options": ["insure","compute","unite"]
-                },
-                {
-                    "Question": "hatto",
-                    "RightAnswer": "even",
-                    "options": ["how","also","then"]
-                },
-                {
-                    "Question": "mumkin",
-                    "RightAnswer": "may",
-                    "options": ["should","could","would"]
-                },
-                {
-                    "Question": "bu yerda",
-                    "RightAnswer": "here",
-                    "options": ["even","how","also"]
-                },
-                {
-                    "Question": "ko'p sonli",
-                    "RightAnswer": "many",
-                    "options": ["any","other","some"]
-                },
-                {
-                    "Question": "shunday",
-                    "RightAnswer": "such",
-                    "options": ["many","any","other"]
-                }
+  { "Question": "shu, o’sha", "RightAnswer": "тот", "options": ["wherever","nowhere","anymore"] },
+  { "Question": "bo'lmoq", "RightAnswer": "быть", "options": ["what","which","mine"] },
+  { "Question": "va", "RightAnswer": "и", "options": ["a","the","wherever"] },
+  { "Question": "ning", "RightAnswer": "из", "options": ["one","second","master"] },
+  { "Question": "ga", "RightAnswer": "к", "options": ["till","except","until"] },
+  { "Question": "bir", "RightAnswer": "один", "options": ["the","wherever","nowhere"] },
+  { "Question": "da, ichida", "RightAnswer": "в", "options": ["of","one","second"] },
+  { "Question": "ega bo'lmoq", "RightAnswer": "иметь", "options": ["be","what","which"] },
+  { "Question": "u (narsa yoki hayvon)", "RightAnswer": "оно", "options": ["plus","versus","to"] },
+  { "Question": "sen, siz", "RightAnswer": "ты", "options": ["it","plus","versus"] },
+  { "Question": "u (o'gil bola)", "RightAnswer": "он", "options": ["you","it","plus"] },
+  { "Question": "uchun", "RightAnswer": "для", "options": ["in","of","one"] },
+  { "Question": "ular", "RightAnswer": "они", "options": ["he","you","it"] },
+  { "Question": "emas", "RightAnswer": "не", "options": ["cool","tender","pale"] },
+  { "Question": "o'sha, shu", "RightAnswer": "тот", "options": ["than","while","whilst"] },
+  { "Question": "biz", "RightAnswer": "мы", "options": ["they","he","you"] },
+  { "Question": "da, ustida", "RightAnswer": "на", "options": ["for","in","of"] },
+  { "Question": "bilan", "RightAnswer": "с", "options": ["on","for","in"] },
+  { "Question": "bu", "RightAnswer": "это", "options": ["either","least","enough"] },
+  { "Question": "men", "RightAnswer": "я", "options": ["we","they","he"] },
+  { "Question": "qilmoq", "RightAnswer": "делать", "options": ["have","be","what"] },
+  { "Question": "kabi", "RightAnswer": "как", "options": ["hence","otherwise","yet"] },
+  { "Question": "da, atrofida", "RightAnswer": "у", "options": ["with","on","for"] },
+  { "Question": "u (qiz bola)", "RightAnswer": "она", "options": ["I","we","they"] },
+  { "Question": "lekin", "RightAnswer": "но", "options": ["and","a","the"] },
+  { "Question": "dan", "RightAnswer": "из", "options": ["at","with","on"] },
+  { "Question": "tomonidan", "RightAnswer": "кем", "options": ["from","at","with"] },
+  { "Question": "bo'ladi", "RightAnswer": "будет", "options": ["hello","hi","each"] },
+  { "Question": "yoki", "RightAnswer": "или", "options": ["but","and","a"] },
+  { "Question": "aytmoq", "RightAnswer": "сказать", "options": ["do","have","be"] },
+  { "Question": "bormoq", "RightAnswer": "идти", "options": ["say","do","have"] },
+  { "Question": "shuning uchun", "RightAnswer": "поэтому", "options": ["badly","abroad","apart"] },
+  { "Question": "barcha", "RightAnswer": "все", "options": ["this","either","least"] },
+  { "Question": "agar", "RightAnswer": "если", "options": ["or","but","and"] },
+  { "Question": "bir", "RightAnswer": "один", "options": ["second","master","fashion"] },
+  { "Question": "bo'lardi", "RightAnswer": "был бы", "options": ["will","hello","hi"] },
+  { "Question": "haqida", "RightAnswer": "о", "options": ["by","from","at"] },
+  { "Question": "qila olmoq, mumkin", "RightAnswer": "мочь", "options": ["ought","must","might"] },
+  { "Question": "qaysi", "RightAnswer": "который", "options": ["mine","neither","none"] },
+  { "Question": "u yerda", "RightAnswer": "там", "options": ["instead","down","out"] },
+  { "Question": "bilmoq", "RightAnswer": "знать", "options": ["go","say","do"] },
+  { "Question": "ko'proq", "RightAnswer": "больше", "options": ["as","hence","otherwise"] },
+  { "Question": "olmoq", "RightAnswer": "получать", "options": ["know","go","say"] },
+  { "Question": "kim", "RightAnswer": "кто", "options": ["she","I","we"] },
+  { "Question": "yoqtirmoq", "RightAnswer": "нравиться", "options": ["swear","damn","prompt"] },
+  { "Question": "qachon", "RightAnswer": "когда", "options": ["so","badly","abroad"] },
+  { "Question": "o'ylamoq", "RightAnswer": "думать", "options": ["get","know","go"] },
+  { "Question": "qilmoq, yaratmoq", "RightAnswer": "делать", "options": ["think","get","know"] },
+  { "Question": "vaqt", "RightAnswer": "время", "options": ["can","ought","must"] },
+  { "Question": "ko'rmoq", "RightAnswer": "видеть", "options": ["make","think","get"] },
+  { "Question": "nima", "RightAnswer": "что", "options": ["which","mine","neither"] },
+  { "Question": "yuqoriga", "RightAnswer": "вверх", "options": ["back","nowadays","aside"] },
+  { "Question": "ba'zi", "RightAnswer": "некоторые", "options": ["all","this","either"] },
+  { "Question": "boshqa", "RightAnswer": "другой", "options": ["some","all","this"] },
+  { "Question": "tashqarida", "RightAnswer": "снаружи", "options": ["up","back","nowadays"] },
+  { "Question": "yaxshi", "RightAnswer": "хороший", "options": ["bad","young","large"] },
+  { "Question": "odamlar", "RightAnswer": "люди", "options": ["time","can","ought"] },
+  { "Question": "yil", "RightAnswer": "год", "options": ["people","time","can"] },
+  { "Question": "olmoq", "RightAnswer": "брать", "options": ["see","make","think"] },
+  { "Question": "yo'q", "RightAnswer": "нет", "options": ["several","few","every"] },
+  { "Question": "yaxshi", "RightAnswer": "хорошо", "options": ["faithfully","gently","subsequently"] },
+  { "Question": "chunki", "RightAnswer": "потому что", "options": ["if","or","but"] },
+  { "Question": "juda", "RightAnswer": "очень", "options": ["not","cool","tender"] },
+  { "Question": "faqat", "RightAnswer": "только", "options": ["very","not","cool"] },
+  { "Question": "kelmoq", "RightAnswer": "приходить", "options": ["take","see","make"] }
             ],
             "level 2": [
                 {
@@ -14047,3 +13612,4 @@ const questions = {
             ]
 
         }
+
